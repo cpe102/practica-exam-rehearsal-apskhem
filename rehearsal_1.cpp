@@ -12,9 +12,9 @@ int main() {
     cin >> gpa;
 
     if (gpa >= 3.50)
-        cout << name + "Inw Jrim Jrim!!!";
+        cout << name + " Inw Jrim Jrim!!!";
     else
-        cout << "Try harder, " + name;
+        cout << "Try harder, " + name << "!!!";
 
     return 0;
 }
