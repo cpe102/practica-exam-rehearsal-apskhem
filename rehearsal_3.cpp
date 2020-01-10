@@ -1,6 +1,17 @@
 #include <iostream>
+#include <cmath>
+using namespace std;
 
 //Write sumSqrt() here.
+float sumSqrt(int n) {
+
+    float sum = 0;
+
+    while (n > 0)
+        sum += 1/pow(n--, 0.5);
+
+    return sum;
+}
 
 
 int main()
@@ -14,5 +25,4 @@ int main()
     double g = sumSqrt(-1);
     
     cout << a << "\n" << b << "\n" << c << "\n" << d << "\n" << e << "\n" << f << "\n" << g << "\n";
-
 }
